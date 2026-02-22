@@ -20,3 +20,6 @@ Projekt udostępniony na licencji MIT.
 
 ## Autor
 [Czopereq](https://github.com/Czopereq)
+
+## Demo strony
+Projekt można zobaczyć pod adresem: [https://rebirthcraft.og-dcb.pl](https://rebirthcraft.og-dcb.pl)

@@ -1,22 +1,22 @@
 # rebirthcraft
 
-Rebirthcraft is a project for managing and interacting with Minecraft servers using RCON and web interfaces.
+Rebirthcraft to projekt do zarządzania i interakcji z serwerami Minecraft za pomocą RCON oraz interfejsu webowego.
 
-## Features
-- RCON integration
-- Web-based shop and stats
-- Custom resources and video backgrounds
+## Funkcje
+- Integracja z RCON
+- Sklep i statystyki dostępne przez stronę www
+- Własne zasoby i tło wideo
 
-## Getting Started
-1. Clone the repository:
+## Jak zacząć
+1. Sklonuj repozytorium:
    ```
    git clone https://github.com/Czopereq/rebirthcraft.git
    ```
-2. Configure your `db.php` and `rconcfg.php` files (not tracked by Git).
-3. Deploy the project to your web server.
+2. Skonfiguruj pliki `db.php` oraz `rconcfg.php` (nie są śledzone przez Git).
+3. Wdróż projekt na swój serwer www.
 
-## License
-This project is licensed under the MIT License.
+## Licencja
+Projekt udostępniony na licencji MIT.
 
-## Author
+## Autor
 [Czopereq](https://github.com/Czopereq)

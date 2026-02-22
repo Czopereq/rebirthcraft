@@ -1,0 +1,190 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.pixel-logo {
+    height: 100px;
+    width: auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+    transition: transform 0.2s;
+    z-index: 1000;
+}
+
+.pixel-logo:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+.shop-header {
+    min-height: 50vh;
+
+}
+
+
+.card {
+    transition: transform 0.3s, border-color 0.3s;
+    background-color: rgba(33, 37, 41, 0.9);
+    border: 1px solid #444;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffc107;
+    box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: contain;
+    padding: 20px;
+    image-rendering: pixelated;
+}
+
+
+.table-custom {
+    background-color: rgba(33, 37, 41, 0.95);
+    border: 1px solid #444;
+    color: white;
+}
+
+.table-custom th {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.table-custom td {
+    border-bottom: 1px solid #444;
+    padding: 15px;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.table-custom tr:hover td {
+    background-color: rgb(187, 187, 187);
+    color: #fff;
+}
+
+.player-head {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.nick-input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffc107;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    outline: none;
+}
+
+.nick-input:focus {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.preview-container {
+    background: url('./resources/img/background.jpg') center/cover;
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.preview-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.minecraft-model {
+    position: relative;
+    z-index: 2;
+    height: 180px;
+    image-rendering: pixelated;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.8));
+}
+
+.nametag-box {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    z-index: 3;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.color-btn {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.prefix-color-btn {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.color-btn:hover,
+.color-btn.active {
+    transform: scale(1.2);
+    border-color: white;
+    z-index: 10;
+}
